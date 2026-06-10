@@ -4,12 +4,14 @@ Bài Thi Thiết kế web Mã sinh viên: 251CTT050 Họ tên sinh viên: Nguy�
 
 Mô tả chức năng đã thực hiện:
 
+Công cụ AI đã sử dụng: ChatGPT.
+
 Sử dụng các thẻ semantic: header, nav, section, article, footer.
 
 Xây dựng bố cục bằng Flexbox và CSS Grid.
 
 Thêm JavaScript.
 
-Những phần tham khảo AI Mẫu CSS.
+Những phần tham khảo AI Mẫu CSS, Mẫu JavaScript.
 
 link live web (github pages)
