@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Mobile Store</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#products">Sản phẩm</a></li>
+            <li><a href="#news">Tin tức</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+    </nav>
+
+    <button id="themeBtn">Đổi giao diện</button>
+</header>
+
+<main>
+
+    <section id="home">
+        <article>
+            <h2>Giới thiệu</h2>
+            <p>
+                Mobile Store chuyên cung cấp điện thoại chính hãng,
+                giá tốt, bảo hành uy tín.
+            </p>
+        </article>
+    </section>
+
+    <section id="products">
+        <h2>Sản phẩm nổi bật</h2>
+
+        <div class="product-grid">
+
+            <article class="card">
+                <img src="shopping (1).webp"alt="">
+                <h3>iPhone 15</h3>
+                <p>22.990.000 VNĐ</p>
+                <button onclick="showDetail('iPhone 15')">Chi tiết</button>
+            </article>
+
+            <article class="card">
+                <img src="shopping.webp" alt="">
+                <h3>Samsung S24</h3>
+                <p>20.990.000 VNĐ</p>
+                <button onclick="showDetail('Samsung S24')">Chi tiết</button>
+            </article>
+
+            <article class="card">
+                <img src="shopping (2).webp" alt="">
+                <h3>Xiaomi 14</h3>
+                <p>15.990.000 VNĐ</p>
+                <button onclick="showDetail('Xiaomi 14')">Chi tiết</button>
+            </article>
+
+            <article class="card">
+                <img src="shopping (3).webp" alt="">
+                <h3>Oppo Reno 11</h3>
+                <p>11.990.000 VNĐ</p>
+                <button onclick="showDetail('Oppo Reno 11')">Chi tiết</button>
+            </article>
+
+            <article class="card">
+                <img src="shopping (4).webp" alt="">
+                <h3>Vivo V30</h3>
+                <p>10.990.000 VNĐ</p>
+                <button onclick="showDetail('Vivo V30')">Chi tiết</button>
+            </article>
+
+            <article class="card">
+                <img src="shopping (5).webp" alt="">
+                <h3>Realme 12</h3>
+                <p>8.990.000 VNĐ</p>
+                <button onclick="showDetail('Realme 12')">Chi tiết</button>
+            </article>
+
+        </div>
+    </section>
+
+    <section id="news">
+        <h2>Tin tức công nghệ</h2>
+
+        <div class="news-flex">
+
+            <article class="news-card">
+                <h3>iPhone mới ra mắt</h3>
+                <p>Nhiều tính năng AI hiện đại.</p>
+            </article>
+
+            <article class="news-card">
+                <h3>Samsung Galaxy AI</h3>
+                <p>Xu hướng AI trên điện thoại.</p>
+            </article>
+
+            <article class="news-card">
+                <h3>Xu hướng 5G</h3>
+                <p>Mạng 5G phát triển mạnh tại Việt Nam.</p>
+            </article>
+
+        </div>
+    </section>
+
+</main>
+
+<footer id="contact">
+    <h3>Thông tin liên hệ</h3>
+    <p>Email: mobilestore@gmail.com</p>
+    <p>Điện thoại: 0909123456</p>
+    <p>Địa chỉ:Đắk Lắk</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
