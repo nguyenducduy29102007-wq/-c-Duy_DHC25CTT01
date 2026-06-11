@@ -15,3 +15,5 @@ Thêm JavaScript.
 Những phần tham khảo AI Mẫu CSS, Mẫu JavaScript.
 
 link live web (github pages)
+
+https://nguyenducduy29102007-wq.github.io/-c-Duy_DHC25CTT01/
